@@ -1,11 +1,10 @@
+IGCSE_computer_science_student_names = ["Yujing","Barbie","Angelina","Howard","Arsalon"]
 
-three_exam_score = {
-    "Angelina":[99,98,98],
-    "Yujing":[99,98,98],
-    "Barbie":[99,98,98],
-    "Arsalon":[99,100,99]
-}
+#Q12
+IGCSE_computer_science_student_names.remove("Arsalon")
 
-#Q15
-Arsalon_three_exam_score = three_exam_score.get("Arsalon")
-print(Arsalon_three_exam_score)
+#Q13
+computer_science_sort_list =IGCSE_computer_science_student_names.sort()
+
+print(computer_science_sort_list)
+
